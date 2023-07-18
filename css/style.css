@@ -1,0 +1,29 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* Common CSS Style */
+body{
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+.section-padding{
+    padding: 0 244px;
+}
+
+/* Navbar Style */
+nav{
+    height: 130px;
+    border: 1px solid rgb(230, 65, 92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-container img{
+    height: 40px;
+
+}
