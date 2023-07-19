@@ -17,6 +17,7 @@ body{
     color: #FFF;
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
 }
 .btn-secondary{
     border-radius: 48px;
@@ -26,6 +27,7 @@ body{
     color: #FFF;
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
 }
 .gray-text-color{
     color: #534C64;
@@ -81,8 +83,11 @@ nav{
     border: 0;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 10px 20px;
-    
+    padding: 10px 20px;    
+}
+
+.fa-youtube, .menus-btn img{
+    cursor: pointer;
 }
 /* Banner Style */
 .banner-container{
@@ -176,6 +181,7 @@ nav{
 }
 .funny-videos-card img{
     width: 220px;
+    cursor: pointer;
 }
 .funny-videos-card-desc{
     text-align: left;
@@ -252,6 +258,7 @@ nav{
     -webkit-background-clip: text;
     color: transparent;
     border-color: #ff42a5;
+    cursor: pointer;
 }
 .games-btn img{
     width: 40px;
@@ -315,6 +322,7 @@ footer{
 }
 .social-logo img{
     width: 32px;
+    cursor: pointer;
 }
 .terms-menus{
     display: flex;
@@ -402,7 +410,8 @@ footer{
         left: -50px;
     }
     .games-button-container{
-        margin-top: 100px;
+        margin-top: 30px;
+        padding: 30px 20px;
     }
     .games-button-row{
         flex-wrap: wrap;
