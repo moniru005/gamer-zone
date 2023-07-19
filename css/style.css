@@ -166,7 +166,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 .funny-videos-card{
     position: relative;
@@ -174,12 +174,47 @@ nav{
     max-width: 250px;
 }
 .funny-videos-card img{
-    width: 250px;
+    width: 220px;
 }
 .funny-videos-card-desc{
     text-align: left;
+    font-size: 0.9rem;
 }
 
+/* play instantly section style */
+.play-instantly-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    gap: 180px;
+ 
+}
+.play-instantly-content{
+    text-align: left;
+}
+.play-instantly-image{
+    position: relative;
+    text-align: right;
+}
+.pi-image{
+    width: 400px;
+}
+.play-instantly-image .pi-image2{
+    position: absolute;
+    top: 230px;
+    left: -100px;
+    width: 200px;
+}
+.play-instantly-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.play-instantly-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
 
 /* Mobile Responsive Style */
