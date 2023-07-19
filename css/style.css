@@ -55,6 +55,7 @@ nav{
 .logo-text span{
     color: #ff42a5;
 }
+/* Menu style */
 .menus{
     display: flex;
     align-items: center;
@@ -258,6 +259,86 @@ nav{
 .row-1{
     padding-bottom: 20px;
 }
+/* Footer style */
+footer{
+    background: #0B0223;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid red; */
+
+}
+.footer-logo-container img{
+    height: 40px;
+}
+.footer-logo-text{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: white;
+
+}
+.footer-logo-text span{
+    color: #ff42a5;
+}
+
+.footer-menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menus ul{
+    display: flex;
+    align-items: center;
+}
+.footer-menus ul li{
+    list-style: none;
+    padding-right: 1.8rem;
+}
+.footer-menus ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color:white
+}
+.social-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social-logo img{
+    width: 32px;
+}
+.terms-menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terms-menus ul{
+    display: flex;
+    align-items: center;
+}
+.terms-menus ul li{
+    list-style: none;
+    padding-right: 1.8rem;
+}
+.terms-menus ul li a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+}
+.copyright{
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.60);
+}
 
 
 /* Mobile Responsive Style */
@@ -325,6 +406,9 @@ nav{
     }
     .games-button-row{
         flex-wrap: wrap;
+    }
+    .footer-menus ul{
+        flex-direction: column;
     }
 }
 
