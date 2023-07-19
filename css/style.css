@@ -9,10 +9,28 @@ body{
 .section-padding{
     padding: 0 200px;
 }
+.btn-primary{
+    border-radius: 40px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-secondary{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 /* Navbar Style */
 nav{
-    border: 1px solid rgb(230, 65, 92);
+    /* border: 1px solid rgb(230, 65, 92); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +77,54 @@ nav{
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 20px;
     
+}
+/* Banner Style */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size:contain;
+    /* border: 1px solid rgb(230, 65, 92); */
+    padding-top: 3rem;
+}
+.banner-content{
+    /* border: 1px solid rgb(230, 65, 92); */
+}
+.banner-button-container{
+    display: inline-flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+}
+.banner-title2{
+    background:linear-gradient(#F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 0;
+}
+.banner-desc{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.banner-desc img{
+    width: 1.5rem;
+}
+
+.banner-image{
+ width: 50%;
+ position: relative;
+ top: -2rem;
 }
 
 
